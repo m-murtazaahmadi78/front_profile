@@ -1,5 +1,5 @@
 // const API_BASE = "https://dashboard-backend-b7ak.onrender.com/api";
-const API_BASE = "http://localhost:5000/api";
+const API_BASE = "https://my-portfolio-godd.onrender.com/api";
 
 
 export async function apiFetch<T>(
