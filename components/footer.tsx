@@ -20,20 +20,15 @@ export default function Footer() {
   const socialLinks = [
     {
       icon: Linkedin,
-      href: "www.linkedin.com/in/shafiqullah-ebadi-a42900296",
+      href: "https://www.linkedin.com/in/m-murtaza-ahmadi-a61a0a353",
       label: "LinkedIn",
     },
-    { icon: Mail, href: "mailto:shafiq.ebadii@gmail.com", label: "Email" },
+    { icon: Mail, href: "mailto:m.murtaza.ahmadi78@gmail.com", label: "Email" },
     {
       icon: MessageCircle,
-      href: "https://wa.me/93770668357",
+      href: "https://wa.me/qr/XM7WQY4GZNSCL1",
       label: "WhatsApp",
     },
-    {
-      icon: Link2,
-      href: "https://linktr.ee/shafiqullah.ebadi",
-      label: "Linktree"
-    }
   ];
 
   const footerLinks = [
@@ -62,7 +57,7 @@ export default function Footer() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
             >
-              Shafiqullah Ebadi
+              M Murtaza Ahmadi
             </motion.div>
             <motion.p
               className="text-gray-600 dark:text-gray-400 max-w-xs text-justify"
@@ -156,10 +151,10 @@ export default function Footer() {
                   href="mailto:contact@sajjadmatin.com"
                   className="inline-flex items-center gap-2 text-blue-600 dark:text-blue-400 font-medium hover:underline"
                 >
-                  shafiq.ebadii@gmail.com
+                  m.murtaza.ahmadi78@gmail.com
                 </a>
                 <p className="inline-flex items-center gap-2 text-blue-600 dark:text-blue-400 font-medium hover:underline">
-                  +93770668357
+                  +93700752885
                 </p>
               </div>
             </motion.div>
@@ -215,7 +210,7 @@ export default function Footer() {
             viewport={{ once: true }}
             transition={{ delay: 0.5 }}
           >
-            © {currentYear} Shafiqullah Ebadi. All rights reserved.
+            © {currentYear} M Murtaza Ahmadi. All rights reserved.
           </motion.p>
 
           <motion.button

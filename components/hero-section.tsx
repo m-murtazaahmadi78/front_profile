@@ -90,7 +90,7 @@ export default function HeroSection() {
               View Projects
             </MagneticButton>
             <MagneticButton variant="secondary">
-              <a href="/shafiqCV.pdf" download>
+              <a href="/InsGrapic.pdf" download>
                 Download CV
               </a>
             </MagneticButton>
@@ -103,7 +103,7 @@ export default function HeroSection() {
           >
             {[
               { label: "Projects", value: "50+" },
-              { label: "Experience", value: "8+" },
+              { label: "Experience", value: "2+" },
               { label: "Softwares", value: "15+" },
             ].map((stat, i) => (
               <motion.div key={i} whileHover={{ y: -5 }}>

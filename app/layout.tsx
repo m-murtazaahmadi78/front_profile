@@ -10,14 +10,21 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Shafiqullah Ebadi - Multimedia Designer",
+  title: "M Murtaza Ahmadi - Multimedia Designer",
   description:
     "Multimedia Designer.",
   generator: "next.js",
   icons: {
-    icon: "/fav.png",
-    apple: "/fav.png",
+    icon: [
+      { url: "/jkll.jpg", sizes: "32x32", type: "image/jpeg" },
+      { url: "/jkll.jpg", sizes: "16x16", type: "image/jpeg" },
+      { url: "/jkll.jpg", sizes: "192x192", type: "image/jpeg" },
+    ],
+    apple: [
+      { url: "/jkll.jpg", sizes: "180x180", type: "image/jpeg" },
+    ],
   },
+  manifest: "/manifest.json",
 };
 
 export default function RootLayout({

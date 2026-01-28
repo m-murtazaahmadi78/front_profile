@@ -56,7 +56,7 @@ export default function Navbar() {
           whileHover={{ scale: 1.05 }}
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
         >
-          Shafiqullah Ebadi
+          M Murtaza Ahmadi
         </motion.div>
 
         <div className="flex gap-1 items-center">
@@ -90,7 +90,7 @@ export default function Navbar() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            <a href="shafiqCV.pdf" download>
+            <a href="InsGrapic.pdf" download>
               CV
             </a>
           </motion.button>

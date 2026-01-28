@@ -13,7 +13,6 @@ import {
   Mail,
   Phone,
   MessageCircle,
-  Link2,
 } from "lucide-react";
 
 import emailjs from "@emailjs/browser";
@@ -68,22 +67,17 @@ export default function ContactSection() {
     {
       name: "LinkedIn",
       icon: <Linkedin className="w-5 h-5" />,
-      href: "www.linkedin.com/in/shafiqullah-ebadi-a42900296",
+      href: "https://www.linkedin.com/in/m-murtaza-ahmadi-a61a0a353",
     },
     {
       name: "Email",
       icon: <Mail className="w-5 h-5" />,
-      href: "mailto:shafiq.ebadii@gmail.com",
+      href: "mailto:m.murtaza.ahmadi78@gmail.com",
     },
     {
       name: "WhatsApp",
       icon: <MessageCircle className="w-5 h-5" />,
-      href: "https://wa.me/93770668357",
-    },
-    {
-      name: "Linktree",
-      icon: <Link2 className="w-5 h-5" />,
-      href: "https://linktr.ee/shafiqullah.ebadi",
+      href: "https://wa.me/qr/XM7WQY4GZNSCL1",
     },
   ];
 

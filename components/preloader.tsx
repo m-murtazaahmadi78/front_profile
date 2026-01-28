@@ -39,7 +39,7 @@ export default function Preloader({ isReady }: { isReady: boolean }) {
               transition={{ delay: 0.5 }}
               className="mt-8 text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent"
             >
-              Shafiqullah Ebadi
+              M Murtaza Ahmadi
             </motion.h1>
             <motion.div
               initial={{ width: 0 }}

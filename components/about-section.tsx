@@ -3,7 +3,7 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import Image from "next/image";
-import shafiq from "../public/Shafiqullah Ebadi.jpg.jpg";
+import murtaza from "../public/jkll.jpg";
 
 export default function AboutSection() {
   const ref = useRef(null);
@@ -25,7 +25,7 @@ export default function AboutSection() {
   };
 
   const stats = [
-    { label: "8+ Years Experience", value: "Professional Media Designer" },
+    { label: "2+ Years Experience", value: "Professional Media Designer" },
     { label: "50+ Projects Completed", value: "Diverse Design & Media Project" },
     {
       label: "PhotoShop • Lightroom • Premiere • After Effects • Illustrator",
@@ -53,8 +53,8 @@ export default function AboutSection() {
 
             <div className="relative aspect-square rounded-[2.5rem] overflow-hidden border border-white/20 shadow-2xl bg-slate-900/50 backdrop-blur-sm">
               <Image
-                src={shafiq}
-                alt="Shafiqullah Ebadi"
+                src={murtaza}
+                alt="M Murtaza Ahmadi"
                 fill
                 objectPosition="center"
                 className="object-cover object-top transition-transform duration-700 group-hover:scale-110"
@@ -69,7 +69,7 @@ export default function AboutSection() {
             <motion.div variants={itemVariants}>
               <h2 className="text-4xl md:text-5xl font-bold mb-4">About Me</h2>
               <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed text-justify">
-                Creative visual professional with 8+ years of experience in
+                Creative visual professional with 2+ years of experience in
                 graphic design, motion graphics, video editing, videography, and
                 photography. Specialized in visual identity, advertising and
                 educational content, animation, and cinematography. Highly
