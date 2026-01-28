@@ -1,4 +1,0 @@
-
-const useGetCompanies = async () => {
-    try
-};

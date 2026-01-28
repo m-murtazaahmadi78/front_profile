@@ -1,4 +1,0 @@
-
-const useGetExperience = () => {
-    return useQue
-}
