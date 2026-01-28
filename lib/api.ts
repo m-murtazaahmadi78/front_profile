@@ -1,5 +1,5 @@
 // const API_BASE = "https://dashboard-backend-b7ak.onrender.com/api";
-const API_BASE = "https://my-portfolio-godd.onrender.com/api";
+const API_BASE = "https://my-portfolio-bl2f.onrender.com/api";
 
 
 export async function apiFetch<T>(
@@ -9,6 +9,7 @@ export async function apiFetch<T>(
   const res = await fetch(`${API_BASE}${endpoint}`, {
     cache: "no-store",
     headers: { "Content-Type": "application/json" },
+     credentials: "include",
     ...options,
   });
 
